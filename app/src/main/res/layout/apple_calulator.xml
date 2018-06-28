@@ -12,19 +12,21 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginBottom="10dp"
-        android:paddingTop="40dp"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:paddingTop="40dp">
 
         <EditText
-            android:id="@+id/EditTextL1"
+            android:id="@+id/edit1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingRight="30dp"
+            android:hint="0"
             android:inputType="number"
-            android:text="0"
+            android:paddingRight="30dp"
             android:textColor="#ffffff"
+            android:textColorHint="#fff"
             android:textDirection="rtl"
-            android:textSize="60sp" />
+            android:textSize="60sp"
+            android:maxLength= "9"/>
     </LinearLayout>
 
 
@@ -45,7 +47,7 @@
             android:paddingLeft="30dp">
 
             <Button
-                android:id="@+id/BAC"
+                android:id="@+id/acButtom"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:background="@drawable/circle_buttom_gray"
@@ -53,7 +55,7 @@
                 android:textSize="30sp" />
 
             <Button
-                android:id="@+id/Bplus_negeive"
+                android:id="@+id/add_subButtom"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_marginLeft="20dp"
@@ -62,7 +64,7 @@
                 android:textSize="30sp" />
 
             <Button
-                android:id="@+id/BPercent"
+                android:id="@+id/percentButtom"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_marginLeft="20dp"
@@ -71,7 +73,7 @@
                 android:textSize="30sp" />
 
             <Button
-                android:id="@+id/BDivision"
+                android:id="@+id/divisionButtom"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_marginLeft="20dp"
@@ -121,7 +123,7 @@
                 android:textSize="30sp" />
 
             <Button
-                android:id="@+id/Bx"
+                android:id="@+id/multiplicationButtom"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_marginLeft="20dp"
@@ -171,7 +173,7 @@
                 android:textSize="30sp" />
 
             <Button
-                android:id="@+id/BNegetive"
+                android:id="@+id/subtractionButtom"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_marginLeft="20dp"
@@ -221,7 +223,7 @@
                 android:textSize="30sp" />
 
             <Button
-                android:id="@+id/BPlus"
+                android:id="@+id/summationButtom"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_marginLeft="20dp"
@@ -254,7 +256,7 @@
 
 
             <Button
-                android:id="@+id/BDot"
+                android:id="@+id/decimalpointButtom"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_marginLeft="20dp"
@@ -264,7 +266,7 @@
                 android:textSize="30sp" />
 
             <Button
-                android:id="@+id/Bequal"
+                android:id="@+id/equalButtom"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_marginLeft="20dp"
